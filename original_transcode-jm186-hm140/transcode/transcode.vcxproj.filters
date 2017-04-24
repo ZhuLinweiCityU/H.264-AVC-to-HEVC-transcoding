@@ -1,0 +1,783 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="JMsource\annexb.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="JMsource\biaridecod.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="JMsource\blk_prediction.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="JMsource\block.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="JMsource\cabac.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="JMsource\config_common.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="JMsource\configfile.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="JMsource\context_ini.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="HMsource\ContextModel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="HMsource\ContextModel3DBuffer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="JMsource\dec_statistics.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="JMsource\erc_api.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="JMsource\erc_do_i.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="JMsource\erc_do_p.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="JMsource\errorconcealment.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="JMsource\filehandle.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="JMsource\fmo.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="JMsource\header.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="JMsource\image.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="JMsource\img_io.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="JMsource\img_process.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="JMsource\input.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="JMsource\intra16x16_pred.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="JMsource\intra16x16_pred_mbaff.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="JMsource\intra16x16_pred_normal.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="JMsource\intra4x4_pred.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="JMsource\intra4x4_pred_mbaff.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="JMsource\intra4x4_pred_normal.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="JMsource\intra8x8_pred.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="JMsource\intra8x8_pred_mbaff.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="JMsource\intra8x8_pred_normal.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="JMsource\intra_chroma_pred.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="JMsource\intra_chroma_pred_mbaff.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="JMsource\intra_pred_common.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="JMsource\io_raw.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="JMsource\io_tiff.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="JMsource\ldecod.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="JMsource\leaky_bucket.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="HMsource\libmd5.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="JMsource\loop_filter_mbaff.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="JMsource\loop_filter_normal.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="JMsource\loopFilter.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="JMsource\macroblock.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="JMsource\mb_access.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="JMsource\mb_prediction.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="JMsource\mb_read.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="JMsource\mbuffer.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="JMsource\mbuffer_common.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="JMsource\mbuffer_mvc.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="JMsource\mc_direct.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="JMsource\mc_prediction.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="JMsource\memalloc.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="JMsource\mv_prediction.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="JMsource\nal.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="JMsource\nalu.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="JMsource\nalucommon.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="HMsource\NALwrite.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="JMsource\output.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="JMsource\parset.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="JMsource\parsetcommon.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="HMsource\program_options_lite.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="JMsource\quant.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="JMsource\read_comp_cabac.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="JMsource\read_comp_cavlc.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="JMsource\resize.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="JMsource\rtp.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="JMsource\sei.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="HMsource\SEI0.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="HMsource\SEIwrite.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="HMsource\SyntaxElementWriter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="HMsource\TAppEncCfg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="HMsource\TAppEncTop.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="HMsource\TComBitStream.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="HMsource\TComCABACTables.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="HMsource\TComDataCU.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="HMsource\TComInterpolationFilter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="HMsource\TComLoopFilter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="HMsource\TComMotionInfo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="HMsource\TComPattern.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="HMsource\TComPic.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="HMsource\TComPicSym.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="HMsource\TComPicYuv.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="HMsource\TComPicYuvMD5.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="HMsource\TComPrediction.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="HMsource\TComRdCost.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="HMsource\TComRdCostWeightPrediction.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="HMsource\TComRom.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="HMsource\TComSampleAdaptiveOffset.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="HMsource\TComSlice.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="HMsource\TComTrQuant.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="HMsource\TComWeightPrediction.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="HMsource\TComYuv.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="HMsource\TDecEntropy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="HMsource\TEncAnalyze.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="HMsource\TEncBinCoderCABAC.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="HMsource\TEncBinCoderCABACCounter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="HMsource\TEncCavlc.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="HMsource\TEncCu.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="HMsource\TEncEntropy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="HMsource\TEncGOP.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="HMsource\TEncPic.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="HMsource\TEncPreanalyzer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="HMsource\TEncRateCtrl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="HMsource\TEncSampleAdaptiveOffset.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="HMsource\TEncSbac.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="HMsource\TEncSearch.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="HMsource\TEncSlice.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="HMsource\TEncTop.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="JMsource\transform.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="JMsource\transform8x8.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="HMsource\TVideoIOYuv.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="JMsource\vlc.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="HMsource\WeightPredAnalysis.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="JMsource\win32.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="HMsource\AccessUnit.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="JMsource\annexb.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HMsource\AnnexBread.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HMsource\annexbwrite.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="JMsource\biaridecod.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="JMsource\blk_prediction.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="JMsource\block.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="JMsource\config_common.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="JMsource\configfile.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="JMsource\context_ini.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HMsource\ContextModel.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HMsource\ContextModel3DBuffer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HMsource\ContextTables.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="JMsource\contributors.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="JMsource\ctx_tables.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="JMsource\dec_statistics.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="JMsource\defines.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="JMsource\distortion.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="JMsource\elements.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="JMsource\enc_statistics.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="JMsource\erc_api.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="JMsource\erc_do.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="JMsource\erc_globals.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="JMsource\errorconcealment.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="JMsource\fast_memory.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="JMsource\filehandle.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="JMsource\fmo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="JMsource\frame.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="JMsource\global.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="JMsource\h264decoder.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="JMsource\header.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="JMsource\ifunctions.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="JMsource\image.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="JMsource\img_io.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="JMsource\img_process.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="JMsource\img_process_types.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="JMsource\input.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="JMsource\intra16x16_pred.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="JMsource\intra4x4_pred.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="JMsource\intra8x8_pred.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="JMsource\io_image.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="JMsource\io_raw.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="JMsource\io_tiff.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="JMsource\io_video.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="JMsource\lagrangian.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="JMsource\leaky_bucket.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HMsource\libmd5.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="JMsource\loop_filter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="JMsource\loopfilter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="JMsource\macroblock.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="JMsource\mb_access.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="JMsource\mb_prediction.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="JMsource\mbuffer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="JMsource\mbuffer_common.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="JMsource\mbuffer_mvc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="JMsource\mc_prediction.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HMsource\MD5.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="JMsource\memalloc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="JMsource\mv_prediction.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HMsource\NAL.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HMsource\NALread.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="JMsource\nalu.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="JMsource\nalucommon.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HMsource\nalwrite.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="JMsource\output.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="JMsource\parset.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="JMsource\parsetcommon.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HMsource\program_options_lite.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="JMsource\quant.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="JMsource\quant_params.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="JMsource\report.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="JMsource\resize.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="JMsource\rtp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="JMsource\sei.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HMsource\SEI0.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HMsource\SEIread.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HMsource\seiwrite.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HMsource\SyntaxElementParser.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HMsource\syntaxelementwriter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HMsource\tappenccfg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HMsource\tappenctop.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HMsource\TComBitCounter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HMsource\TComBitStream.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HMsource\tcomcabactables.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HMsource\TComDataCU.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HMsource\TComInterpolationFilter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HMsource\TComList.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HMsource\TComLoopFilter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HMsource\TComMotionInfo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HMsource\TComMv.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HMsource\TComPattern.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HMsource\TComPic.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HMsource\TComPicSym.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HMsource\TComPicYuv.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HMsource\TComPrediction.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HMsource\TComRdCost.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HMsource\TComRdCostWeightPrediction.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HMsource\TComRom.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HMsource\TComSampleAdaptiveOffset.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HMsource\tcomslice.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HMsource\TComTrQuant.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HMsource\TComWeightPrediction.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HMsource\TComYuv.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HMsource\tdecbincoder.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HMsource\TDecBinCoderCABAC.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HMsource\TDecCAVLC.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HMsource\TDecCu.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HMsource\tdecentropy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HMsource\TDecGop.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HMsource\tdecsbac.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HMsource\TDecSlice.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HMsource\TDecTop.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HMsource\tencanalyze.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HMsource\tencbincoder.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HMsource\tencbincodercabac.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HMsource\TEncBinCoderCABACCounter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HMsource\tenccavlc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HMsource\tenccfg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HMsource\tenccu.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HMsource\tencentropy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HMsource\tencgop.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HMsource\tencpic.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HMsource\TEncPreanalyzer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HMsource\tencratectrl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HMsource\tencsampleadaptiveoffset.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HMsource\tencsbac.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HMsource\tencsearch.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HMsource\tencslice.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HMsource\tenctop.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="JMsource\transform.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="JMsource\transform8x8.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HMsource\tvideoioyuv.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HMsource\TypeDef.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="JMsource\typedefs.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="JMsource\types.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="JMsource\vlc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="JMsource\vui_params.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HMsource\weightpredanalysis.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="JMsource\win32.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

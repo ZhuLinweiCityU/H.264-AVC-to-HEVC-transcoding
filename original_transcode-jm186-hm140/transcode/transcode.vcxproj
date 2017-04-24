@@ -1,0 +1,350 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{A17506D5-FEB9-40A0-A4BE-3943BF8618E5}</ProjectGuid>
+    <RootNamespace>transcode</RootNamespace>
+    <Keyword>Win32Proj</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v110</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v110</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>11.0.50727.1</_ProjectFileVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <OutDir>$(SolutionDir)$(Configuration)\</OutDir>
+    <IntDir>$(Configuration)\</IntDir>
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <OutDir>$(SolutionDir)$(Configuration)\</OutDir>
+    <IntDir>$(Configuration)\</IntDir>
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <PrecompiledHeader />
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Console</SubSystem>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <Optimization>MaxSpeed</Optimization>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <PrecompiledHeader />
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Console</SubSystem>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="JMsource\annexb.c" />
+    <ClCompile Include="JMsource\biaridecod.c" />
+    <ClCompile Include="JMsource\blk_prediction.c" />
+    <ClCompile Include="JMsource\block.c" />
+    <ClCompile Include="JMsource\cabac.c" />
+    <ClCompile Include="JMsource\config_common.c" />
+    <ClCompile Include="JMsource\configfile.c" />
+    <ClCompile Include="JMsource\context_ini.c" />
+    <ClCompile Include="HMsource\ContextModel.cpp" />
+    <ClCompile Include="HMsource\ContextModel3DBuffer.cpp" />
+    <ClCompile Include="JMsource\dec_statistics.c" />
+    <ClCompile Include="JMsource\erc_api.c" />
+    <ClCompile Include="JMsource\erc_do_i.c" />
+    <ClCompile Include="JMsource\erc_do_p.c" />
+    <ClCompile Include="JMsource\errorconcealment.c" />
+    <ClCompile Include="JMsource\filehandle.c" />
+    <ClCompile Include="JMsource\fmo.c" />
+    <ClCompile Include="JMsource\header.c" />
+    <ClCompile Include="JMsource\image.c" />
+    <ClCompile Include="JMsource\img_io.c" />
+    <ClCompile Include="JMsource\img_process.c" />
+    <ClCompile Include="JMsource\input.c" />
+    <ClCompile Include="JMsource\intra16x16_pred.c" />
+    <ClCompile Include="JMsource\intra16x16_pred_mbaff.c" />
+    <ClCompile Include="JMsource\intra16x16_pred_normal.c" />
+    <ClCompile Include="JMsource\intra4x4_pred.c" />
+    <ClCompile Include="JMsource\intra4x4_pred_mbaff.c" />
+    <ClCompile Include="JMsource\intra4x4_pred_normal.c" />
+    <ClCompile Include="JMsource\intra8x8_pred.c" />
+    <ClCompile Include="JMsource\intra8x8_pred_mbaff.c" />
+    <ClCompile Include="JMsource\intra8x8_pred_normal.c" />
+    <ClCompile Include="JMsource\intra_chroma_pred.c" />
+    <ClCompile Include="JMsource\intra_chroma_pred_mbaff.c" />
+    <ClCompile Include="JMsource\intra_pred_common.c" />
+    <ClCompile Include="JMsource\io_raw.c" />
+    <ClCompile Include="JMsource\io_tiff.c" />
+    <ClCompile Include="JMsource\ldecod.c" />
+    <ClCompile Include="JMsource\leaky_bucket.c" />
+    <ClCompile Include="HMsource\libmd5.c" />
+    <ClCompile Include="JMsource\loop_filter_mbaff.c" />
+    <ClCompile Include="JMsource\loop_filter_normal.c" />
+    <ClCompile Include="JMsource\loopFilter.c" />
+    <ClCompile Include="JMsource\macroblock.c" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="JMsource\mb_access.c" />
+    <ClCompile Include="JMsource\mb_prediction.c" />
+    <ClCompile Include="JMsource\mb_read.c" />
+    <ClCompile Include="JMsource\mbuffer.c" />
+    <ClCompile Include="JMsource\mbuffer_common.c" />
+    <ClCompile Include="JMsource\mbuffer_mvc.c" />
+    <ClCompile Include="JMsource\mc_direct.c" />
+    <ClCompile Include="JMsource\mc_prediction.c" />
+    <ClCompile Include="JMsource\memalloc.c" />
+    <ClCompile Include="JMsource\mv_prediction.c" />
+    <ClCompile Include="JMsource\nal.c" />
+    <ClCompile Include="JMsource\nalu.c" />
+    <ClCompile Include="JMsource\nalucommon.c" />
+    <ClCompile Include="HMsource\NALwrite.cpp" />
+    <ClCompile Include="JMsource\output.c" />
+    <ClCompile Include="JMsource\parset.c" />
+    <ClCompile Include="JMsource\parsetcommon.c" />
+    <ClCompile Include="HMsource\program_options_lite.cpp" />
+    <ClCompile Include="JMsource\quant.c" />
+    <ClCompile Include="JMsource\read_comp_cabac.c" />
+    <ClCompile Include="JMsource\read_comp_cavlc.c" />
+    <ClCompile Include="JMsource\resize.c" />
+    <ClCompile Include="JMsource\rtp.c" />
+    <ClCompile Include="JMsource\sei.c" />
+    <ClCompile Include="HMsource\SEI0.cpp" />
+    <ClCompile Include="HMsource\SEIwrite.cpp" />
+    <ClCompile Include="HMsource\SyntaxElementWriter.cpp" />
+    <ClCompile Include="HMsource\TAppEncCfg.cpp" />
+    <ClCompile Include="HMsource\TAppEncTop.cpp" />
+    <ClCompile Include="HMsource\TComBitStream.cpp" />
+    <ClCompile Include="HMsource\TComCABACTables.cpp" />
+    <ClCompile Include="HMsource\TComDataCU.cpp" />
+    <ClCompile Include="HMsource\TComInterpolationFilter.cpp" />
+    <ClCompile Include="HMsource\TComLoopFilter.cpp" />
+    <ClCompile Include="HMsource\TComMotionInfo.cpp" />
+    <ClCompile Include="HMsource\TComPattern.cpp" />
+    <ClCompile Include="HMsource\TComPic.cpp" />
+    <ClCompile Include="HMsource\TComPicSym.cpp" />
+    <ClCompile Include="HMsource\TComPicYuv.cpp" />
+    <ClCompile Include="HMsource\TComPicYuvMD5.cpp" />
+    <ClCompile Include="HMsource\TComPrediction.cpp" />
+    <ClCompile Include="HMsource\TComRdCost.cpp" />
+    <ClCompile Include="HMsource\TComRdCostWeightPrediction.cpp" />
+    <ClCompile Include="HMsource\TComRom.cpp" />
+    <ClCompile Include="HMsource\TComSampleAdaptiveOffset.cpp" />
+    <ClCompile Include="HMsource\TComSlice.cpp" />
+    <ClCompile Include="HMsource\TComTrQuant.cpp" />
+    <ClCompile Include="HMsource\TComWeightPrediction.cpp" />
+    <ClCompile Include="HMsource\TComYuv.cpp" />
+    <ClCompile Include="HMsource\TDecEntropy.cpp" />
+    <ClCompile Include="HMsource\TEncAnalyze.cpp" />
+    <ClCompile Include="HMsource\TEncBinCoderCABAC.cpp" />
+    <ClCompile Include="HMsource\TEncBinCoderCABACCounter.cpp" />
+    <ClCompile Include="HMsource\TEncCavlc.cpp" />
+    <ClCompile Include="HMsource\TEncCu.cpp" />
+    <ClCompile Include="HMsource\TEncEntropy.cpp" />
+    <ClCompile Include="HMsource\TEncGOP.cpp" />
+    <ClCompile Include="HMsource\TEncPic.cpp" />
+    <ClCompile Include="HMsource\TEncPreanalyzer.cpp" />
+    <ClCompile Include="HMsource\TEncRateCtrl.cpp" />
+    <ClCompile Include="HMsource\TEncSampleAdaptiveOffset.cpp" />
+    <ClCompile Include="HMsource\TEncSbac.cpp" />
+    <ClCompile Include="HMsource\TEncSearch.cpp" />
+    <ClCompile Include="HMsource\TEncSlice.cpp" />
+    <ClCompile Include="HMsource\TEncTop.cpp" />
+    <ClCompile Include="JMsource\transform.c" />
+    <ClCompile Include="JMsource\transform8x8.c" />
+    <ClCompile Include="HMsource\TVideoIOYuv.cpp" />
+    <ClCompile Include="JMsource\vlc.c" />
+    <ClCompile Include="HMsource\WeightPredAnalysis.cpp" />
+    <ClCompile Include="JMsource\win32.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="HMsource\AccessUnit.h" />
+    <ClInclude Include="JMsource\annexb.h" />
+    <ClInclude Include="HMsource\AnnexBread.h" />
+    <ClInclude Include="HMsource\annexbwrite.h" />
+    <ClInclude Include="JMsource\biaridecod.h" />
+    <ClInclude Include="JMsource\blk_prediction.h" />
+    <ClInclude Include="JMsource\block.h" />
+    <ClInclude Include="JMsource\config_common.h" />
+    <ClInclude Include="JMsource\configfile.h" />
+    <ClInclude Include="JMsource\context_ini.h" />
+    <ClInclude Include="HMsource\ContextModel.h" />
+    <ClInclude Include="HMsource\ContextModel3DBuffer.h" />
+    <ClInclude Include="HMsource\ContextTables.h" />
+    <ClInclude Include="JMsource\contributors.h" />
+    <ClInclude Include="JMsource\ctx_tables.h" />
+    <ClInclude Include="JMsource\dec_statistics.h" />
+    <ClInclude Include="JMsource\defines.h" />
+    <ClInclude Include="JMsource\distortion.h" />
+    <ClInclude Include="JMsource\elements.h" />
+    <ClInclude Include="JMsource\enc_statistics.h" />
+    <ClInclude Include="JMsource\erc_api.h" />
+    <ClInclude Include="JMsource\erc_do.h" />
+    <ClInclude Include="JMsource\erc_globals.h" />
+    <ClInclude Include="JMsource\errorconcealment.h" />
+    <ClInclude Include="JMsource\fast_memory.h" />
+    <ClInclude Include="JMsource\filehandle.h" />
+    <ClInclude Include="JMsource\fmo.h" />
+    <ClInclude Include="JMsource\frame.h" />
+    <ClInclude Include="JMsource\global.h" />
+    <ClInclude Include="JMsource\h264decoder.h" />
+    <ClInclude Include="JMsource\header.h" />
+    <ClInclude Include="JMsource\ifunctions.h" />
+    <ClInclude Include="JMsource\image.h" />
+    <ClInclude Include="JMsource\img_io.h" />
+    <ClInclude Include="JMsource\img_process.h" />
+    <ClInclude Include="JMsource\img_process_types.h" />
+    <ClInclude Include="JMsource\input.h" />
+    <ClInclude Include="JMsource\intra16x16_pred.h" />
+    <ClInclude Include="JMsource\intra4x4_pred.h" />
+    <ClInclude Include="JMsource\intra8x8_pred.h" />
+    <ClInclude Include="JMsource\io_image.h" />
+    <ClInclude Include="JMsource\io_raw.h" />
+    <ClInclude Include="JMsource\io_tiff.h" />
+    <ClInclude Include="JMsource\io_video.h" />
+    <ClInclude Include="JMsource\lagrangian.h" />
+    <ClInclude Include="JMsource\leaky_bucket.h" />
+    <ClInclude Include="HMsource\libmd5.h" />
+    <ClInclude Include="JMsource\loop_filter.h" />
+    <ClInclude Include="JMsource\loopfilter.h" />
+    <ClInclude Include="JMsource\macroblock.h" />
+    <ClInclude Include="JMsource\mb_access.h" />
+    <ClInclude Include="JMsource\mb_prediction.h" />
+    <ClInclude Include="JMsource\mbuffer.h" />
+    <ClInclude Include="JMsource\mbuffer_common.h" />
+    <ClInclude Include="JMsource\mbuffer_mvc.h" />
+    <ClInclude Include="JMsource\mc_prediction.h" />
+    <ClInclude Include="HMsource\MD5.h" />
+    <ClInclude Include="JMsource\memalloc.h" />
+    <ClInclude Include="JMsource\mv_prediction.h" />
+    <ClInclude Include="HMsource\NAL.h" />
+    <ClInclude Include="HMsource\NALread.h" />
+    <ClInclude Include="JMsource\nalu.h" />
+    <ClInclude Include="JMsource\nalucommon.h" />
+    <ClInclude Include="HMsource\nalwrite.h" />
+    <ClInclude Include="JMsource\output.h" />
+    <ClInclude Include="JMsource\parset.h" />
+    <ClInclude Include="JMsource\parsetcommon.h" />
+    <ClInclude Include="HMsource\program_options_lite.h" />
+    <ClInclude Include="JMsource\quant.h" />
+    <ClInclude Include="JMsource\quant_params.h" />
+    <ClInclude Include="JMsource\report.h" />
+    <ClInclude Include="JMsource\resize.h" />
+    <ClInclude Include="JMsource\rtp.h" />
+    <ClInclude Include="JMsource\sei.h" />
+    <ClInclude Include="HMsource\SEI0.h" />
+    <ClInclude Include="HMsource\SEIread.h" />
+    <ClInclude Include="HMsource\seiwrite.h" />
+    <ClInclude Include="HMsource\SyntaxElementParser.h" />
+    <ClInclude Include="HMsource\syntaxelementwriter.h" />
+    <ClInclude Include="HMsource\tappenccfg.h" />
+    <ClInclude Include="HMsource\tappenctop.h" />
+    <ClInclude Include="HMsource\TComBitCounter.h" />
+    <ClInclude Include="HMsource\TComBitStream.h" />
+    <ClInclude Include="HMsource\tcomcabactables.h" />
+    <ClInclude Include="HMsource\TComDataCU.h" />
+    <ClInclude Include="HMsource\TComInterpolationFilter.h" />
+    <ClInclude Include="HMsource\TComList.h" />
+    <ClInclude Include="HMsource\TComLoopFilter.h" />
+    <ClInclude Include="HMsource\TComMotionInfo.h" />
+    <ClInclude Include="HMsource\TComMv.h" />
+    <ClInclude Include="HMsource\TComPattern.h" />
+    <ClInclude Include="HMsource\TComPic.h" />
+    <ClInclude Include="HMsource\TComPicSym.h" />
+    <ClInclude Include="HMsource\TComPicYuv.h" />
+    <ClInclude Include="HMsource\TComPrediction.h" />
+    <ClInclude Include="HMsource\TComRdCost.h" />
+    <ClInclude Include="HMsource\TComRdCostWeightPrediction.h" />
+    <ClInclude Include="HMsource\TComRom.h" />
+    <ClInclude Include="HMsource\TComSampleAdaptiveOffset.h" />
+    <ClInclude Include="HMsource\tcomslice.h" />
+    <ClInclude Include="HMsource\TComTrQuant.h" />
+    <ClInclude Include="HMsource\TComWeightPrediction.h" />
+    <ClInclude Include="HMsource\TComYuv.h" />
+    <ClInclude Include="HMsource\tdecbincoder.h" />
+    <ClInclude Include="HMsource\TDecBinCoderCABAC.h" />
+    <ClInclude Include="HMsource\TDecCAVLC.h" />
+    <ClInclude Include="HMsource\TDecCu.h" />
+    <ClInclude Include="HMsource\tdecentropy.h" />
+    <ClInclude Include="HMsource\TDecGop.h" />
+    <ClInclude Include="HMsource\tdecsbac.h" />
+    <ClInclude Include="HMsource\TDecSlice.h" />
+    <ClInclude Include="HMsource\TDecTop.h" />
+    <ClInclude Include="HMsource\tencanalyze.h" />
+    <ClInclude Include="HMsource\tencbincoder.h" />
+    <ClInclude Include="HMsource\tencbincodercabac.h" />
+    <ClInclude Include="HMsource\TEncBinCoderCABACCounter.h" />
+    <ClInclude Include="HMsource\tenccavlc.h" />
+    <ClInclude Include="HMsource\tenccfg.h" />
+    <ClInclude Include="HMsource\tenccu.h" />
+    <ClInclude Include="HMsource\tencentropy.h" />
+    <ClInclude Include="HMsource\tencgop.h" />
+    <ClInclude Include="HMsource\tencpic.h" />
+    <ClInclude Include="HMsource\TEncPreanalyzer.h" />
+    <ClInclude Include="HMsource\tencratectrl.h" />
+    <ClInclude Include="HMsource\tencsampleadaptiveoffset.h" />
+    <ClInclude Include="HMsource\tencsbac.h" />
+    <ClInclude Include="HMsource\tencsearch.h" />
+    <ClInclude Include="HMsource\tencslice.h" />
+    <ClInclude Include="HMsource\tenctop.h" />
+    <ClInclude Include="JMsource\transform.h" />
+    <ClInclude Include="JMsource\transform8x8.h" />
+    <ClInclude Include="HMsource\tvideoioyuv.h" />
+    <ClInclude Include="HMsource\TypeDef.h" />
+    <ClInclude Include="JMsource\typedefs.h" />
+    <ClInclude Include="JMsource\types.h" />
+    <ClInclude Include="JMsource\vlc.h" />
+    <ClInclude Include="JMsource\vui_params.h" />
+    <ClInclude Include="HMsource\weightpredanalysis.h" />
+    <ClInclude Include="JMsource\win32.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
