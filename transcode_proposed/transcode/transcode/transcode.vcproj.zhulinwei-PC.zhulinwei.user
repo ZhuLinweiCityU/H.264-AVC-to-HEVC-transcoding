@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="gb2312"?>
+<VisualStudioUserFile
+	ProjectType="Visual C++"
+	Version="9.00"
+	ShowAllFiles="false"
+	>
+	<Configurations>
+		<Configuration
+			Name="Debug|Win32"
+			>
+			<DebugSettings
+				Command="$(TargetPath)"
+				WorkingDirectory="E:\朱林卫工作文件夹\视频转码\测试"
+				CommandArguments="-d decoder.cfg -c BasketballPass.cfg -c encoder_lowdelay_P_main.cfg -f 90 -q 24 -t0 0.75 -t1 0.8 -t2 0.85"
+				Attach="false"
+				DebuggerType="3"
+				Remote="1"
+				RemoteMachine="ZHULINWEI-PC"
+				RemoteCommand=""
+				HttpUrl=""
+				PDBPath=""
+				SQLDebugging=""
+				Environment=""
+				EnvironmentMerge="true"
+				DebuggerFlavor="0"
+				MPIRunCommand=""
+				MPIRunArguments=""
+				MPIRunWorkingDirectory=""
+				ApplicationCommand=""
+				ApplicationArguments=""
+				ShimCommand=""
+				MPIAcceptMode=""
+				MPIAcceptFilter=""
+			/>
+		</Configuration>
+		<Configuration
+			Name="Release|Win32"
+			>
+			<DebugSettings
+				Command="$(TargetPath)"
+				WorkingDirectory="E:\朱林卫工作文件夹\视频转码\测试"
+				CommandArguments="-d decoder.cfg -c BasketballPass.cfg -c encoder_lowdelay_P_main.cfg -f 90 -q 24 -t0 0.75 -t1 0.8 -t2 0.85"
+				Attach="false"
+				DebuggerType="3"
+				Remote="1"
+				RemoteMachine="ZHULINWEI-PC"
+				RemoteCommand=""
+				HttpUrl=""
+				PDBPath=""
+				SQLDebugging=""
+				Environment=""
+				EnvironmentMerge="true"
+				DebuggerFlavor="0"
+				MPIRunCommand=""
+				MPIRunArguments=""
+				MPIRunWorkingDirectory=""
+				ApplicationCommand=""
+				ApplicationArguments=""
+				ShimCommand=""
+				MPIAcceptMode=""
+				MPIAcceptFilter=""
+			/>
+		</Configuration>
+	</Configurations>
+</VisualStudioUserFile>
