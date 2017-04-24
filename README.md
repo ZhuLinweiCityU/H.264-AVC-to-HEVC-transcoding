@@ -8,4 +8,4 @@ It should be noted that (1) the opencv is supposed to be equipped for the propos
                         (2) the number of decoding should equal to the number of encoding;
                         (3) low delay P main and low delay main configurations are suitable
                         (4) for random access configuration, the code maybe done some changes because of I frame.
-If you any questions, please feel free to contact me. (lwzhu2-c@my.cityu.edu.hk)
+If you have any questions, please feel free to contact me. (lwzhu2-c@my.cityu.edu.hk)
